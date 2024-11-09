@@ -1,2 +1,3 @@
 # ImgtoPdf
-Image to pdf coverter
+A simple Image to pdf coverter using basic HTML,CSS and Javascript.
+
