@@ -60,8 +60,7 @@ header p {
 
 .button {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 button,
@@ -75,7 +74,7 @@ button,
     color: #fff;
     border: none;
     border-radius: 5px;
-    display: inline-block;
+    display: block;
     cursor: pointer;
 }
 
