@@ -7,8 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Welcome to Image to PDF Converter</h1>
+        <p>Upload your image and download it as a PDF in a few simple steps</p>
+    </header>
+    
     <div class="container">
-        <img id="showImg" src="images/img.png" alt="Image">
+        <h2>Upload Your Image</h2>
+        <img id="showImg" src="images/img.png" alt="Uploaded Image">
         <div class="button">
             <div class="upload">
                 <input type="file" onChange="loadFile(event)" accept=".png, .jpg, .jpeg">
