@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload and PDF Download</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img id="showImg" src="images/img.png" alt="Image">
+        <div class="button">
+            <div class="upload">
+                <input type="file" onChange="loadFile(event)" accept=".png, .jpg, .jpeg">
+                Upload Image
+            </div>
+            <button onClick="pdfDown()">Download To PDF</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
